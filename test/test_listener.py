@@ -9,4 +9,4 @@ consumer = KafkaConsumer(
 )
 for msg in consumer:
 
-    print(msg.value)
+    print(f"[Listener] Kafka received: {msg.value}")
