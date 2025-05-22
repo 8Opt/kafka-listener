@@ -1,7 +1,7 @@
 from kafka import KafkaConsumer
 
 TOPIC = "TEST_KAFKA"
-BOOTSTRAP_SERVERS = 'localhost:9092'
+BOOTSTRAP_SERVERS = '192.168.111.71:9092'
 
 consumer = KafkaConsumer(
     TOPIC, 
